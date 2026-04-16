@@ -6,23 +6,23 @@ export default function Home() {
     {
       id: 1,
       name: "Golden Croissants",
-      image: "https://images.unsplash.com/photo-1737700087816-95c80570fba8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw0fHxiYWtlcnklMjBwYXN0cmllcyUyMGNyb2lzc2FudHN8ZW58MXx8fHwxNzc2MTQ3MjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "https://img.freepik.com/premium-photo/golden-croissant-with-flaky-layers-bakery-fresh_1106454-19037.jpg",
       description: "Buttery, flaky perfection",
-      price: 4.5,
+      price: 99.00,
     },
     {
       id: 2,
       name: "Strawberry Delight",
       image: "https://images.unsplash.com/photo-1737700087841-f2bc25eb0b10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxiYWtlcnklMjBwYXN0cmllcyUyMGNyb2lzc2FudHN8ZW58MXx8fHwxNzc2MTQ3MjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       description: "Fresh strawberries & cream",
-      price: 6.0,
+      price: 149.00,
     },
     {
       id: 3,
       name: "Chocolate Dream",
-      image: "https://images.unsplash.com/photo-1737700088850-d0b53f9d39ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw3fHxiYWtlcnklMjBwYXN0cmllcyUyMGNyb2lzc2FudHN8ZW58MXx8fHwxNzc2MTQ3MjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      image: "https://amandascookin.com/wp-content/uploads/2023/11/Mint-Chocolate-Dream-Bars-V01-1100x1650.jpg",
       description: "Rich, decadent chocolate",
-      price: 5.5,
+      price: 102.00,
     },
   ];
 
