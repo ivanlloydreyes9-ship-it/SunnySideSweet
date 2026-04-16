@@ -11,36 +11,6 @@ type Product = {
   category: string;
 };
 
-const productImageMap: Record<string, string> = {
-  "Golden Croissant":
-    "https://source.unsplash.com/featured/720x540/?golden-croissant,breakfast,bakery,food",
-  "Strawberry Delight":
-    "https://source.unsplash.com/featured/720x540/?strawberry-dessert,strawberries,bakery,food",
-  "Chocolate Dream":
-    "https://source.unsplash.com/featured/720x540/?chocolate-pastry,chocolate-cake,bakery,food",
-  "Almond Croissant":
-    "https://source.unsplash.com/featured/720x540/?almond-croissant,breakfast,bakery,food",
-  "Vanilla Dream Cake":
-    "https://source.unsplash.com/featured/720x540/?vanilla-cake,bakery,food",
-  "Chocolate Cake":
-    "https://source.unsplash.com/featured/720x540/?chocolate-cake,bakery,food",
-  "Festive Celebration":
-    "https://source.unsplash.com/featured/720x540/?celebration-cake,bakery,food",
-  "Strawberry Cake":
-    "https://source.unsplash.com/featured/720x540/?strawberry-cake,bakery,food",
-  "Artisan Sourdough":
-    "https://source.unsplash.com/featured/720x540/?sourdough-loaf,bread,bakery,food",
-  "French Baguette":
-    "https://source.unsplash.com/featured/720x540/?baguette,bread,bakery,food",
-  "Multigrain Loaf":
-    "https://source.unsplash.com/featured/720x540/?multigrain-loaf,bread,bakery,food",
-  "Fresh Brown Bread":
-    "https://source.unsplash.com/featured/720x540/?brown-bread,loaf,bakery,food",
-};
-
-const getProductImage = (name: string) =>
-  productImageMap[name] ??
-  `https://source.unsplash.com/featured/720x540/?${encodeURIComponent(name)}`;
 
 export default function Products() {
   const { addToCart } = useCart();
@@ -53,7 +23,8 @@ export default function Products() {
       name: "Golden Croissant",
       description: "Buttery, flaky layers of perfection",
       price: 99.0,
-      image: getProductImage("Golden Croissant"),
+      image:
+        "https://source.unsplash.com/featured/720x540/?golden-croissant,breakfast,bakery,food",
       category: "Pastries",
     },
     {
@@ -61,7 +32,8 @@ export default function Products() {
       name: "Strawberry Delight",
       description: "Fresh strawberries with cream filling",
       price: 149.0,
-      image: getProductImage("Strawberry Delight"),
+      image:
+        "https://source.unsplash.com/featured/720x540/?strawberry-dessert,strawberries,bakery,food",
       category: "Pastries",
     },
     {
@@ -69,7 +41,8 @@ export default function Products() {
       name: "Chocolate Dream",
       description: "Rich, decadent chocolate pastry",
       price: 120.0,
-      image: getProductImage("Chocolate Dream"),
+      image:
+        "https://source.unsplash.com/featured/720x540/?chocolate-pastry,chocolate-cake,bakery,food",
       category: "Pastries",
     },
     {
@@ -77,7 +50,8 @@ export default function Products() {
       name: "Almond Croissant",
       description: "Almond cream filled perfection",
       price: 149.0,
-      image: getProductImage("Almond Croissant"),
+      image:
+        "https://source.unsplash.com/featured/720x540/?almond-croissant,breakfast,bakery,food",
       category: "Pastries",
     },
     {
@@ -85,7 +59,7 @@ export default function Products() {
       name: "Vanilla Dream Cake",
       description: "Light vanilla sponge with buttercream",
       price: 420.0,
-      image: getProductImage("Vanilla Dream Cake"),
+      image: "https://source.unsplash.com/featured/720x540/?vanilla-cake,bakery,food",
       category: "Cakes",
     },
     {
@@ -93,7 +67,7 @@ export default function Products() {
       name: "Chocolate Cake",
       description: "Rich chocolate layers with ganache",
       price: 450.0,
-      image: getProductImage("Chocolate Cake"),
+      image: "https://source.unsplash.com/featured/720x540/?chocolate-cake,bakery,food",
       category: "Cakes",
     },
     {
@@ -101,7 +75,7 @@ export default function Products() {
       name: "Festive Celebration",
       description: "Multi-tiered celebration cake",
       price: 550.0,
-      image: getProductImage("Festive Celebration"),
+      image: "https://source.unsplash.com/featured/720x540/?celebration-cake,bakery,food",
       category: "Cakes",
     },
     {
@@ -109,7 +83,7 @@ export default function Products() {
       name: "Strawberry Cake",
       description: "Fresh strawberry cake with cream",
       price: 480.0,
-      image: getProductImage("Strawberry Cake"),
+      image: "https://source.unsplash.com/featured/720x540/?strawberry-cake,bakery,food",
       category: "Cakes",
     },
     {
@@ -117,7 +91,8 @@ export default function Products() {
       name: "Artisan Sourdough",
       description: "Traditional sourdough with crispy crust",
       price: 99.0,
-      image: getProductImage("Artisan Sourdough"),
+      image:
+        "https://source.unsplash.com/featured/720x540/?sourdough-loaf,bread,bakery,food",
       category: "Breads",
     },
     {
@@ -125,7 +100,7 @@ export default function Products() {
       name: "French Baguette",
       description: "Classic crispy exterior, soft inside",
       price: 120.0,
-      image: getProductImage("French Baguette"),
+      image: "https://source.unsplash.com/featured/720x540/?baguette,bread,bakery,food",
       category: "Breads",
     },
     {
@@ -133,7 +108,8 @@ export default function Products() {
       name: "Multigrain Loaf",
       description: "Packed with wholesome seeds and grains",
       price: 110.0,
-      image: getProductImage("Multigrain Loaf"),
+      image:
+        "https://source.unsplash.com/featured/720x540/?multigrain-loaf,bread,bakery,food",
       category: "Breads",
     },
     {
@@ -141,7 +117,8 @@ export default function Products() {
       name: "Fresh Brown Bread",
       description: "Hearty and nutritious whole grain",
       price: 100.0,
-      image: getProductImage("Fresh Brown Bread"),
+      image:
+        "https://source.unsplash.com/featured/720x540/?brown-bread,loaf,bakery,food",
       category: "Breads",
     },
   ];
