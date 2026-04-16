@@ -13,29 +13,29 @@ type Product = {
 
 const productImageMap: Record<string, string> = {
   "Golden Croissant":
-    "https://source.unsplash.com/featured/720x540/?croissant,food,breakfast,bakery",
+    "https://source.unsplash.com/featured/720x540/?golden-croissant,breakfast,bakery,food",
   "Strawberry Delight":
-    "https://source.unsplash.com/featured/720x540/?strawberry-pastry,strawberries,food,bakery",
+    "https://source.unsplash.com/featured/720x540/?strawberry-dessert,strawberries,bakery,food",
   "Chocolate Dream":
-    "https://source.unsplash.com/featured/720x540/?chocolate-pastry,chocolate,food,bakery",
+    "https://source.unsplash.com/featured/720x540/?chocolate-pastry,chocolate-cake,bakery,food",
   "Almond Croissant":
-    "https://source.unsplash.com/featured/720x540/?almond-croissant,food,bakery",
+    "https://source.unsplash.com/featured/720x540/?almond-croissant,breakfast,bakery,food",
   "Vanilla Dream Cake":
-    "https://source.unsplash.com/featured/720x540/?vanilla-cake,food,bakery",
+    "https://source.unsplash.com/featured/720x540/?vanilla-cake,bakery,food",
   "Chocolate Cake":
-    "https://source.unsplash.com/featured/720x540/?chocolate-cake,food,bakery",
+    "https://source.unsplash.com/featured/720x540/?chocolate-cake,bakery,food",
   "Festive Celebration":
-    "https://source.unsplash.com/featured/720x540/?celebration-cake,food,bakery",
+    "https://source.unsplash.com/featured/720x540/?celebration-cake,bakery,food",
   "Strawberry Cake":
-    "https://source.unsplash.com/featured/720x540/?strawberry-cake,food,bakery",
+    "https://source.unsplash.com/featured/720x540/?strawberry-cake,bakery,food",
   "Artisan Sourdough":
-    "https://source.unsplash.com/featured/720x540/?sourdough-bread,loaf,bread,bakery",
+    "https://source.unsplash.com/featured/720x540/?sourdough-loaf,bread,bakery,food",
   "French Baguette":
-    "https://source.unsplash.com/featured/720x540/?baguette,bread,bakery",
+    "https://source.unsplash.com/featured/720x540/?baguette,bread,bakery,food",
   "Multigrain Loaf":
-    "https://source.unsplash.com/featured/720x540/?multigrain-bread,loaf,bakery",
+    "https://source.unsplash.com/featured/720x540/?multigrain-loaf,bread,bakery,food",
   "Fresh Brown Bread":
-    "https://source.unsplash.com/featured/720x540/?brown-bread,loaf,bakery",
+    "https://source.unsplash.com/featured/720x540/?brown-bread,loaf,bakery,food",
 };
 
 const getProductImage = (name: string) =>
