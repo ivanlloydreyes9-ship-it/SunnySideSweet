@@ -35,10 +35,7 @@ export default function Register() {
           <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
             <Sun className="w-12 h-12 text-foreground" />
           </div>
-          <h1
-            className="text-4xl md:text-5xl mb-3 text-foreground"
-            style={{ fontFamily: 'var(--font-heading)' }}
-          >
+          <h1 className="text-4xl md:text-5xl mb-3 text-foreground font-heading">
             Join Us
           </h1>
           <p className="text-lg text-foreground/70">
