@@ -51,7 +51,7 @@ export default function Products() {
       description: "Almond cream filled perfection",
       price: 149.0,
       image:
-        "https://source.unsplash.com/featured/720x540/?almond-croissant,breakfast,bakery,food",
+        "https://www.shugarysweets.com/wp-content/uploads/2017/06/almond-croissants-recipe.jpg",
       category: "Pastries",
     },
     {
