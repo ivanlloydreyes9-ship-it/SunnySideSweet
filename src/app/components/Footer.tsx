@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl mb-4 text-foreground font-bold" style={{ fontFamily: 'var(--font-heading)' }}>
+            <h3 className="text-xl mb-4 text-foreground font-bold font-heading">
               Sunny Side Sweet
             </h3>
             <p className="text-foreground/70 text-sm leading-relaxed">

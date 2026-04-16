@@ -40,10 +40,7 @@ export default function Home() {
               <Sparkles className="w-5 h-5 text-primary" />
               <span className="text-sm font-semibold text-foreground">Baked Fresh Daily</span>
             </div>
-            <h1
-              className="text-5xl md:text-7xl mb-6 leading-tight text-foreground"
-              style={{ fontFamily: 'var(--font-heading)' }}
-            >
+            <h1 className="text-5xl md:text-7xl mb-6 leading-tight text-foreground font-heading">
               Start Your Day on the
               <br />
               <span className="text-accent">Sunny Side</span>
@@ -74,7 +71,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl mb-4 text-foreground" style={{ fontFamily: 'var(--font-heading)' }}>
+            <h2 className="text-4xl md:text-5xl mb-4 text-foreground font-heading">
               Featured Pastries
             </h2>
             <p className="text-xl text-foreground/70">
@@ -86,8 +83,7 @@ export default function Home() {
             {featuredProducts.map((product, index) => (
               <div
                 key={product.id}
-                className="bg-card rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group animate-in fade-in slide-in-from-bottom-4"
-                style={{ animationDelay: `${index * 150}ms` }}
+                className={`bg-card rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group animate-in fade-in slide-in-from-bottom-4 animation-delay-${index * 150}`}
               >
                 <div className="relative overflow-hidden h-64">
                   <img
@@ -97,13 +93,13 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-2xl mb-2 text-foreground" style={{ fontFamily: 'var(--font-heading)' }}>
+                  <h3 className="text-2xl mb-2 text-foreground font-heading">
                     {product.name}
                   </h3>
                   <p className="text-foreground/70 mb-4">{product.description}</p>
                   <div className="flex items-center justify-between">
                     <span className="text-2xl font-bold text-foreground">
-                      ${product.price.toFixed(2)}
+                      ₱{product.price.toFixed(2)}
                     </span>
                   </div>
                 </div>
@@ -130,7 +126,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-md">
                 <Sparkles className="w-8 h-8 text-foreground" strokeWidth={2} />
               </div>
-              <h3 className="text-2xl mb-3 text-foreground" style={{ fontFamily: 'var(--font-heading)' }}>
+              <h3 className="text-2xl mb-3 text-foreground font-heading">
                 Fresh Daily
               </h3>
               <p className="text-foreground/70 leading-relaxed">
@@ -143,7 +139,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-md">
                 <Heart className="w-8 h-8 text-foreground" strokeWidth={2} />
               </div>
-              <h3 className="text-2xl mb-3 text-foreground" style={{ fontFamily: 'var(--font-heading)' }}>
+              <h3 className="text-2xl mb-3 text-foreground font-heading">
                 Made with Love
               </h3>
               <p className="text-foreground/70 leading-relaxed">
@@ -156,7 +152,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-md">
                 <Award className="w-8 h-8 text-foreground" strokeWidth={2} />
               </div>
-              <h3 className="text-2xl mb-3 text-foreground" style={{ fontFamily: 'var(--font-heading)' }}>
+              <h3 className="text-2xl mb-3 text-foreground font-heading">
                 Quality Ingredients
               </h3>
               <p className="text-foreground/70 leading-relaxed">

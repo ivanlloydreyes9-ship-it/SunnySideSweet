@@ -137,10 +137,7 @@ export default function Products() {
     <div className="min-h-screen py-20 bg-gradient-to-b from-secondary via-white to-secondary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700">
-          <h1
-            className="text-5xl md:text-6xl mb-6 text-foreground"
-            style={{ fontFamily: 'var(--font-heading)' }}
-          >
+          <h1 className="text-5xl md:text-6xl mb-6 text-foreground font-heading">
             Our Products
           </h1>
           <p className="text-xl text-foreground/70 max-w-2xl mx-auto">
@@ -169,8 +166,7 @@ export default function Products() {
           {filteredProducts.map((product, index) => (
             <div
               key={product.id}
-              className="bg-white rounded-3xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group animate-in fade-in slide-in-from-bottom-4"
-              style={{ animationDelay: `${index * 100}ms` }}
+              className={`bg-white rounded-3xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group animate-in fade-in slide-in-from-bottom-4 animation-delay-${index * 100}`}
             >
               <div className="relative overflow-hidden h-56">
                 <img
@@ -180,21 +176,15 @@ export default function Products() {
                 />
               </div>
               <div className="p-6">
-                <h3
-                  className="text-xl mb-2 text-foreground"
-                  style={{ fontFamily: 'var(--font-heading)' }}
-                >
+                <h3 className="text-xl mb-2 text-foreground font-heading">
                   {product.name}
                 </h3>
                 <p className="text-sm text-foreground/70 mb-4 leading-relaxed">
                   {product.description}
                 </p>
                 <div className="flex items-center justify-between">
-                  <span
-                    className="text-2xl font-bold text-foreground"
-                    style={{ fontFamily: 'var(--font-heading)' }}
-                  >
-                    ${product.price.toFixed(2)}
+                  <span className="text-2xl font-bold text-foreground font-heading">
+                    ₱{product.price.toFixed(2)}
                   </span>
                   <button
                     onClick={() => handleAddToCart(product)}

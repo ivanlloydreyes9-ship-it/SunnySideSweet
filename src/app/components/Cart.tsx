@@ -12,10 +12,7 @@ export default function Cart() {
           <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
             <ShoppingBag className="w-12 h-12 text-foreground" />
           </div>
-          <h2
-            className="text-4xl md:text-5xl mb-4 text-foreground"
-            style={{ fontFamily: 'var(--font-heading)' }}
-          >
+          <h2 className="text-4xl md:text-5xl mb-4 text-foreground font-heading">
             Your Cart is Empty
           </h2>
           <p className="text-xl text-foreground/70 max-w-md mx-auto mb-8">
@@ -36,10 +33,7 @@ export default function Cart() {
     <div className="min-h-screen py-20 bg-gradient-to-b from-secondary to-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700">
-          <h1
-            className="text-5xl md:text-6xl mb-4 text-foreground"
-            style={{ fontFamily: 'var(--font-heading)' }}
-          >
+          <h1 className="text-5xl md:text-6xl mb-4 text-foreground font-heading">
             Shopping Cart
           </h1>
           <p className="text-xl text-foreground/70">
@@ -65,14 +59,11 @@ export default function Cart() {
 
                   <div className="flex-1 flex flex-col justify-between">
                     <div>
-                      <h3
-                        className="text-2xl mb-2 text-foreground"
-                        style={{ fontFamily: 'var(--font-heading)' }}
-                      >
+                      <h3 className="text-2xl mb-2 text-foreground font-heading">
                         {item.name}
                       </h3>
                       <p className="text-xl text-foreground/80 font-semibold">
-                        ${item.price.toFixed(2)}
+                        ₱{item.price.toFixed(2)}
                       </p>
                     </div>
 
@@ -103,7 +94,7 @@ export default function Cart() {
 
                       <div className="flex items-center gap-6">
                         <span className="text-2xl font-bold text-foreground">
-                          ${(item.price * item.quantity).toFixed(2)}
+                          ₱{(item.price * item.quantity).toFixed(2)}
                         </span>
                         <button
                           onClick={() => removeFromCart(item.id)}
@@ -127,28 +118,22 @@ export default function Cart() {
               Subtotal
             </span>
             <span className="text-2xl text-foreground/70">
-              ${cartTotal.toFixed(2)}
+              ₱{cartTotal.toFixed(2)}
             </span>
           </div>
           <div className="flex justify-between items-center mb-6">
             <span className="text-2xl font-semibold text-foreground">Tax (8%)</span>
             <span className="text-2xl text-foreground/70">
-              ${(cartTotal * 0.08).toFixed(2)}
+              ₱{(cartTotal * 0.08).toFixed(2)}
             </span>
           </div>
           <div className="border-t border-border pt-6 mb-6">
             <div className="flex justify-between items-center">
-              <span
-                className="text-3xl font-bold text-foreground"
-                style={{ fontFamily: 'var(--font-heading)' }}
-              >
+              <span className="text-3xl font-bold text-foreground font-heading">
                 Total
               </span>
-              <span
-                className="text-3xl font-bold text-foreground"
-                style={{ fontFamily: 'var(--font-heading)' }}
-              >
-                ${(cartTotal * 1.08).toFixed(2)}
+              <span className="text-3xl font-bold text-foreground font-heading">
+                ₱{(cartTotal * 1.08).toFixed(2)}
               </span>
             </div>
           </div>

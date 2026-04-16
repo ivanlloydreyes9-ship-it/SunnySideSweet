@@ -69,10 +69,7 @@ export default function Checkout() {
           <div className="w-24 h-24 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
             <CheckCircle2 className="w-16 h-16 text-white" />
           </div>
-          <h2
-            className="text-4xl md:text-5xl mb-4 text-foreground"
-            style={{ fontFamily: 'var(--font-heading)' }}
-          >
+          <h2 className="text-4xl md:text-5xl mb-4 text-foreground font-heading">
             Order Placed Successfully!
           </h2>
           <p className="text-xl text-foreground/70 max-w-md mx-auto">
@@ -87,10 +84,7 @@ export default function Checkout() {
     <div className="min-h-screen py-20 bg-gradient-to-b from-secondary to-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700">
-          <h1
-            className="text-5xl md:text-6xl mb-4 text-foreground"
-            style={{ fontFamily: 'var(--font-heading)' }}
-          >
+          <h1 className="text-5xl md:text-6xl mb-4 text-foreground font-heading">
             Checkout
           </h1>
           <p className="text-xl text-foreground/70">
@@ -230,10 +224,11 @@ export default function Checkout() {
 
                 <div className="space-y-6">
                   <div>
-                    <label className="block mb-2 text-foreground font-medium">
+                    <label htmlFor="paymentMethod" className="block mb-2 text-foreground font-medium">
                       Payment Method *
                     </label>
                     <select
+                      id="paymentMethod"
                       name="paymentMethod"
                       value={paymentInfo.paymentMethod}
                       onChange={handlePaymentChange}
@@ -340,7 +335,7 @@ export default function Checkout() {
                           Qty: {item.quantity}
                         </p>
                         <p className="text-sm font-semibold text-foreground">
-                          ${(item.price * item.quantity).toFixed(2)}
+                          ₱{(item.price * item.quantity).toFixed(2)}
                         </p>
                       </div>
                     </div>
@@ -350,22 +345,22 @@ export default function Checkout() {
                 <div className="border-t border-border pt-6 space-y-3">
                   <div className="flex justify-between text-foreground/70">
                     <span>Subtotal</span>
-                    <span>${cartTotal.toFixed(2)}</span>
+                    <span>₱{cartTotal.toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between text-foreground/70">
                     <span>Tax (8%)</span>
-                    <span>${tax.toFixed(2)}</span>
+                    <span>₱{tax.toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between text-foreground/70">
                     <span>Delivery</span>
-                    <span>${delivery.toFixed(2)}</span>
+                    <span>₱{delivery.toFixed(2)}</span>
                   </div>
                   <div className="border-t border-border pt-3 flex justify-between">
                     <span className="text-xl font-bold text-foreground">
                       Total
                     </span>
                     <span className="text-xl font-bold text-foreground">
-                      ${total.toFixed(2)}
+                      ₱{total.toFixed(2)}
                     </span>
                   </div>
                 </div>
