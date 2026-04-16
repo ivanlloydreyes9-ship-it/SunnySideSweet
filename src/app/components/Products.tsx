@@ -24,7 +24,7 @@ export default function Products() {
       description: "Buttery, flaky layers of perfection",
       price: 99.0,
       image:
-        "https://source.unsplash.com/featured/720x540/?golden-croissant,breakfast,bakery,food",
+        "https://img.freepik.com/premium-photo/golden-croissant-with-flaky-layers-bakery-fresh_1106454-19037.jpg",
       category: "Pastries",
     },
     {
@@ -33,7 +33,7 @@ export default function Products() {
       description: "Fresh strawberries with cream filling",
       price: 149.0,
       image:
-        "https://source.unsplash.com/featured/720x540/?strawberry-dessert,strawberries,bakery,food",
+        "https://images.unsplash.com/photo-1737700087841-f2bc25eb0b10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxiYWtlcnklMjBwYXN0cmllcyUyMGNyb2lzc2FudHN8ZW58MXx8fHwxNzc2MTQ3MjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       category: "Pastries",
     },
     {
@@ -42,7 +42,7 @@ export default function Products() {
       description: "Rich, decadent chocolate pastry",
       price: 120.0,
       image:
-        "https://source.unsplash.com/featured/720x540/?chocolate-pastry,chocolate-cake,bakery,food",
+        "https://amandascookin.com/wp-content/uploads/2023/11/Mint-Chocolate-Dream-Bars-V01-1100x1650.jpg",
       category: "Pastries",
     },
     {
@@ -59,7 +59,7 @@ export default function Products() {
       name: "Vanilla Dream Cake",
       description: "Light vanilla sponge with buttercream",
       price: 420.0,
-      image: "https://source.unsplash.com/featured/720x540/?vanilla-cake,bakery,food",
+      image: "https://images.unsplash.com/photo-1624966436626-77482d9c7cc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZWNvcmF0ZWQlMjBjYWtlc3xlbnwxfHx8fDE3NzYxNDcyMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       category: "Cakes",
     },
     {
@@ -67,7 +67,7 @@ export default function Products() {
       name: "Chocolate Cake",
       description: "Rich chocolate layers with ganache",
       price: 450.0,
-      image: "https://source.unsplash.com/featured/720x540/?chocolate-cake,bakery,food",
+      image: "https://cheneetoday.com/wp-content/uploads/2024/04/matildas-chocolate-cake.jpg",
       category: "Cakes",
     },
     {
@@ -75,7 +75,7 @@ export default function Products() {
       name: "Festive Celebration",
       description: "Multi-tiered celebration cake",
       price: 550.0,
-      image: "https://source.unsplash.com/featured/720x540/?celebration-cake,bakery,food",
+      image: "https://bkmedia.bakingo.com/christmas-cheer-cake0219blac-AAAA.jpg",
       category: "Cakes",
     },
     {
@@ -83,7 +83,7 @@ export default function Products() {
       name: "Strawberry Cake",
       description: "Fresh strawberry cake with cream",
       price: 480.0,
-      image: "https://source.unsplash.com/featured/720x540/?strawberry-cake,bakery,food",
+      image: "https://www.foodandwine.com/thmb/Gg5x64lMAla_XNYCHoywfu2m4m0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/country-cake-with-strawberries-and-whipped-cream-FT-RECIPE0624-98e07c86d82747d6a7ed5b7eca130157.jpg",
       category: "Cakes",
     },
     {
@@ -92,7 +92,7 @@ export default function Products() {
       description: "Traditional sourdough with crispy crust",
       price: 99.0,
       image:
-        "https://source.unsplash.com/featured/720x540/?sourdough-loaf,bread,bakery,food",
+        "https://images.unsplash.com/photo-1565801776220-10bd41565980?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpc2FuJTIwYnJlYWQlMjBsb2F2ZXN8ZW58MXx8fHwxNzc2MDg0NTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       category: "Breads",
     },
     {
@@ -100,7 +100,7 @@ export default function Products() {
       name: "French Baguette",
       description: "Classic crispy exterior, soft inside",
       price: 120.0,
-      image: "https://source.unsplash.com/featured/720x540/?baguette,bread,bakery,food",
+      image: "https://www.alyonascooking.com/wp-content/uploads/2022/02/sourdough-french-bread-8.jpg",
       category: "Breads",
     },
     {
@@ -109,7 +109,7 @@ export default function Products() {
       description: "Packed with wholesome seeds and grains",
       price: 110.0,
       image:
-        "https://source.unsplash.com/featured/720x540/?multigrain-loaf,bread,bakery,food",
+        "https://www.girlversusdough.com/wp-content/uploads/2025/09/whole-grain-seeded-bread-soft-crumb.jpg",
       category: "Breads",
     },
     {
@@ -118,7 +118,7 @@ export default function Products() {
       description: "Hearty and nutritious whole grain",
       price: 100.0,
       image:
-        "https://source.unsplash.com/featured/720x540/?brown-bread,loaf,bakery,food",
+        "https://eastindianrecipes.net/wp-content/uploads/2019/12/Brown-Bread-Recipe3.jpg",
       category: "Breads",
     },
   ];
