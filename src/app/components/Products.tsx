@@ -12,18 +12,30 @@ type Product = {
 };
 
 const productImageMap: Record<string, string> = {
-  "Golden Croissant": "https://source.unsplash.com/featured/720x540/?croissant",
-  "Strawberry Delight": "https://source.unsplash.com/featured/720x540/?strawberry-pastry",
-  "Chocolate Dream": "https://source.unsplash.com/featured/720x540/?chocolate-pastry",
-  "Almond Croissant": "https://source.unsplash.com/featured/720x540/?almond-croissant",
-  "Vanilla Dream Cake": "https://source.unsplash.com/featured/720x540/?vanilla-cake",
-  "Chocolate Cake": "https://source.unsplash.com/featured/720x540/?chocolate-cake",
-  "Festive Celebration": "https://source.unsplash.com/featured/720x540/?celebration-cake",
-  "Strawberry Cake": "https://source.unsplash.com/featured/720x540/?strawberry-cake",
-  "Artisan Sourdough": "https://source.unsplash.com/featured/720x540/?sourdough-bread",
-  "French Baguette": "https://source.unsplash.com/featured/720x540/?baguette",
-  "Multigrain Loaf": "https://source.unsplash.com/featured/720x540/?multigrain-bread",
-  "Fresh Brown Bread": "https://source.unsplash.com/featured/720x540/?brown-bread",
+  "Golden Croissant":
+    "https://images.unsplash.com/photo-1495214783159-3503fd1b572d?auto=format&fit=crop&w=720&q=80",
+  "Strawberry Delight":
+    "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=720&q=80",
+  "Chocolate Dream":
+    "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=720&q=80",
+  "Almond Croissant":
+    "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=720&q=80",
+  "Vanilla Dream Cake":
+    "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=720&q=80",
+  "Chocolate Cake":
+    "https://images.unsplash.com/photo-1532635241-7d7cbb477a0d?auto=format&fit=crop&w=720&q=80",
+  "Festive Celebration":
+    "https://images.unsplash.com/photo-1505253213604-0c3aa4f5c2b2?auto=format&fit=crop&w=720&q=80",
+  "Strawberry Cake":
+    "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=720&q=80",
+  "Artisan Sourdough":
+    "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=720&q=80",
+  "French Baguette":
+    "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=720&q=80",
+  "Multigrain Loaf":
+    "https://images.unsplash.com/photo-1512058564366-c9e2f35f09e0?auto=format&fit=crop&w=720&q=80",
+  "Fresh Brown Bread":
+    "https://images.unsplash.com/photo-1511381939415-5c4c0be1fab5?auto=format&fit=crop&w=720&q=80",
 };
 
 const getProductImage = (name: string) =>
